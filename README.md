@@ -4,6 +4,7 @@
 
 ## For questions: [LossNode](https://t.me/LossNodeChat)
  
+## Orijinal Doküman: [Massa](https://docs.massa.net/en/latest/testnet/install.html)
 
 ![image](https://user-images.githubusercontent.com/101462877/205725816-d6231573-496b-4e43-8d5b-201891ce6e0d.png)
 
