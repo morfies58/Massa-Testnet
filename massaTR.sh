@@ -23,8 +23,8 @@ sleep 1
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 rustc --version
-rustup toolchain install nightly
-rustup default nightly
+rustup toolchain install nightly-2022-11-14
+rustup default nightly-2022-11-14
 
 cd $HOME
 
