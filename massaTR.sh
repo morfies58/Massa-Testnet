@@ -38,4 +38,3 @@ if [ ! $PASSWORD ]; then
 	read -p "Massa node'u icin sifrenizi girin: " PASSWORD
 	echo 'export PASSWORD='$PASSWORD >> $HOME/.bash_profile
 fi
-source $HOME/.bash_profile
