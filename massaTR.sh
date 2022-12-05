@@ -30,7 +30,7 @@ sleep 1
 git clone --branch testnet https://github.com/massalabs/massa.git
 
 if [ ! $PASSWORD ]; then
-	read -p "Bir sifre girin ve kenara kaydedin: " PASSWORD
+	read -p "Massa node'u icin sifrenizi girin: " PASSWORD
 	echo 'export PASSWORD='$PASSWORD >> $HOME/.bash_profile
 fi
 
