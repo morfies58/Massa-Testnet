@@ -16,7 +16,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev -y
 sudo apt install screen -y
 
-echo -e "\e[1m\e[32m3. Rust yukleniyor.. \e[0m"
+echo -e "\e[1m\e[32m2. Rust yukleniyor.. \e[0m"
 echo "======================================================"
 sleep 1
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -34,7 +34,7 @@ if [ ! $PASSWORD ]; then
 	echo 'export PASSWORD='$PASSWORD >> $HOME/.bash_profile
 fi
 
-echo -e "\e[1m\e[32m3. Servis dosyasi olusturuluyor.. \e[0m"
+echo -e "\e[1m\e[32m4. Servis dosyasi olusturuluyor.. \e[0m"
 echo "======================================================"
 sleep 1
 
@@ -51,7 +51,7 @@ LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target" > /etc/systemd/system/massad.service
 
-echo -e "\e[1m\e[32m3. Servis baslatiliyor.. \e[0m"
+echo -e "\e[1m\e[32m5. Servis baslatiliyor.. \e[0m"
 echo "======================================================"
 sleep 1
 sudo systemctl daemon-reload
