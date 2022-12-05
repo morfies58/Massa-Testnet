@@ -32,7 +32,6 @@ echo -e "\e[1m\e[32m3. Binary dosyalari yukleniyor.. \e[0m"
 echo "======================================================"
 sleep 1
 git clone --branch testnet https://github.com/massalabs/massa.git
-enable_ipv6
 cd massa/massa-node/
 
 if [ ! $PASSWORD ]; then
