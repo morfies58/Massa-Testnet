@@ -14,7 +14,7 @@ NODE TYPE | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Testnet | 4          | 8         | 50-60  |
 
-## Starknet Links:
+## Massa Network Links:
 - [Website](https://massa.net)
 - [Explorer](https://massa.net/testnet)
 - [Twitter](https://twitter.com/MassaTurkiye)
