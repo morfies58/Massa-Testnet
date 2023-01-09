@@ -1,6 +1,6 @@
 <h1 align="center">Massa Network Node Kurulum Rehberi
 
-## Massa Network 17.1 Testneti için kurulum rehberi. Sağ üstten yıldızlayıp forklamayı unutmayalım. Sorularınız olursa: [LossNode Chat](https://t.me/LossNode)
+## Massa Network 18.0 Testneti için kurulum rehberi. Sağ üstten yıldızlayıp forklamayı unutmayalım. Sorularınız olursa: [LossNode Chat](https://t.me/LossNode)
 
 ## For questions: [LossNode](https://t.me/LossNodeChat)
  
